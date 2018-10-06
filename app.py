@@ -13,6 +13,8 @@ app.config.from_mapping(
         )
 db = SQLAlchemy(app)
 
+print('hello forking')
+
 from models import *
 
 @app.route('/')
